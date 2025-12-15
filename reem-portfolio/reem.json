@@ -1,0 +1,92 @@
+{
+    "projectTitle": "Personal Website for Software Tester - [Your Name]",
+    "description": "Professional portfolio to showcase software testing and quality assurance (QA) skills and tools.",
+    "styleGuide": {
+      "theme": "Dark Mode Tech Quiz",
+      "primaryColor": "#9333EA",
+      "secondaryColor": "#4ADE80",
+      "backgroundColor": "#2C2B3F",
+      "cardColor": "#3A3B53",
+      "textColor": "#FFFFFF",
+      "fontFamily": "Inter, Roboto, sans-serif",
+      "visualInspiration": "Inspired by the attached 'Frontend Quiz' screenshots. Use a deep grayish-blue/purple background and a vibrant bright purple (#9333EA) as the main accent color (for CTA buttons, highlight, and progress bars). Implement large, rounded-corner cards with colorful, distinct icons for the 'Skills' and 'Tools' sections, exactly like the subject selection screen (HTML, CSS, JS cards) to give a clean and interactive feel."
+    },
+    "pages": [
+      {
+        "pageName": "Home Page",
+        "sections": [
+          {
+            "sectionId": "hero",
+            "title": "Quality Assurance (QA) Engineer",
+            "content": "Specialized in bug detection and performance improvement. I turn code into a reliable product. Experience in manual and automated testing.",
+            "ctaButton": {
+              "text": "View Bug Log",
+              "link": "/projects"
+            }
+          },
+          {
+            "sectionId": "skills",
+            "title": "My Core Skills",
+            "layout": "Grid of Interactive Cards (Quiz Style)",
+            "items": [
+              {
+                "skillName": "Functional Testing",
+                "description": "Verify that the product matches client requirements.",
+                "icon": "CheckDocument",
+                "iconColor": "#53A0E5"
+              },
+              {
+                "skillName": "Automation Testing",
+                "description": "Writing and executing Selenium and Cypress scripts.",
+                "icon": "CodeBrackets",
+                "iconColor": "#FBBF24"
+              },
+              {
+                "skillName": "Performance Testing",
+                "description": "Using JMeter to ensure system speed and responsiveness.",
+                "icon": "Speedometer",
+                "iconColor": "#F87171"
+              },
+              {
+                "skillName": "Accessibility Testing",
+                "description": "Ensuring website compliance with WCAG standards (inspired by the existing icon).",
+                "icon": "AccessibilityPerson",
+                "iconColor": "#9333EA"
+              }
+            ]
+          },
+          {
+            "sectionId": "tools",
+            "title": "My Favorite Tools",
+            "layout": "Simple Card List",
+            "content": "Jira, TestRail, Postman, SQL, Git."
+          },
+          {
+            "sectionId": "experience_teaser",
+            "title": "Latest Projects",
+            "content": "Discover how I contributed to launching high-quality, bug-free applications.",
+            "ctaButton": {
+              "text": "View Portfolio",
+              "link": "/projects"
+            }
+          }
+        ]
+      },
+      {
+        "pageName": "Contact",
+        "sections": [
+          {
+            "sectionId": "contactForm",
+            "title": "Get in Touch to Start Your Project",
+            "content": "Need rigorous testing? Please fill out the form and I'll get back to you.",
+            "formFields": ["Name", "Email", "Message"],
+            "submitButtonColor": "#9333EA"
+          }
+        ]
+      }
+    ],
+    "footer": {
+      "copyright": "Built with Quality Assurance © 2024",
+      "links": ["LinkedIn", "GitHub"]
+    }
+  }
